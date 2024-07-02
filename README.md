@@ -48,8 +48,9 @@ This project is a Task Manager Application built using Angular and Angular Mater
 1. Click the edit icon on the task card you want to edit.
 2. Update the task details.
 3. Click the "Submit" button to save the changes.
-4. Deleting a Task
-5. Click the delete icon on the task card you want to delete.
+
+# Deleting a Task
+1. Click the delete icon on the task card you want to delete.
 
 
 # Dependencies

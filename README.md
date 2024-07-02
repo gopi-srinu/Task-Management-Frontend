@@ -44,13 +44,12 @@ ng serve
 3. Click the "Submit" button to save the task.
 
    
-   # Editing a Task
-
-   1. Click the edit icon on the task card you want to edit.
-   2. Update the task details.
-   3. Click the "Submit" button to save the changes.
-   4. Deleting a Task
-   5. Click the delete icon on the task card you want to delete.
+# Editing a Task
+1. Click the edit icon on the task card you want to edit.
+2. Update the task details.
+3. Click the "Submit" button to save the changes.
+4. Deleting a Task
+5. Click the delete icon on the task card you want to delete.
 
 
 # Dependencies

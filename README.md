@@ -22,19 +22,19 @@ This project is a Task Manager Application built using Angular and Angular Mater
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/task-manager.git
+- git clone https://github.com/yourusername/task-manager.git
 
 2. Navigate to the project directory:
 
-cd task-manager
+- cd task-manager
 
 3. Install the Dependencies
 
-npm install
+- npm install
 
 4. Run the Application
 
-ng serve
+- ng serve
 
 
 # Usage

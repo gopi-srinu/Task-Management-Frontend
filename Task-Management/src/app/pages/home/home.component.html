@@ -1,0 +1,27 @@
+<app-navbar></app-navbar>
+<main>
+    <section>
+        <article>
+            @for (task of tasks; track task) {
+            <mat-card appearance="outlined" *ngIf="tasks.length > 0">
+                <mat-card-content>
+                    <h2>Title : {{task.taskName}}</h2>
+                    <h3>Description : {{task.taskDescription}}</h3>
+                    <h5>Priority : {{task.taskPrioritylevel}} <p [ngClass]="{
+                        'lowPrioritystyles' : task.taskPrioritylevel == 'Low',
+                        'mediumPrioritystyles' : task.taskPrioritylevel == 'Medium',
+                        'highPrioritystyles' : task.taskPrioritylevel == 'High'
+                    }"></p>
+                    </h5>
+                    <h4>Start Date : {{task.taskStartdate | date}}</h4>
+                    <h4>End Date : {{task.taskEnddate | date}}</h4>
+                    <span>
+                        <i class="fa-regular fa-pen-to-square" (click)="editTask(task.taskName, task, task.taskId)"></i>
+                        <i class="fa-solid fa-trash" (click)="deleteElement(task)"></i>
+                    </span>
+                </mat-card-content>
+            </mat-card>
+            }
+        </article>
+    </section>
+</main>

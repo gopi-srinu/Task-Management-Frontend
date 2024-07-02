@@ -1,0 +1,43 @@
+<app-navbar></app-navbar>
+<section>
+    <article>
+        <form [formGroup]="taskForm">
+            <mat-form-field>
+                <mat-label>Enter your Task</mat-label>
+                <input matInput formControlName="taskName">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Enter your Task Description</mat-label>
+                <textarea matInput formControlName="taskDescription"></textarea>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Task Start Date</mat-label>
+                <input matInput [matDatepicker]="picker1" formControlName="taskStartdate">
+                <mat-datepicker-toggle matIconSuffix [for]="picker1"></mat-datepicker-toggle>
+                <mat-datepicker #picker1></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Task End Date</mat-label>
+                <input matInput [matDatepicker]="picker2" formControlName="taskEnddate">
+                <mat-datepicker-toggle matIconSuffix [for]="picker2"></mat-datepicker-toggle>
+                <mat-datepicker #picker2></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Priority</mat-label>
+                <mat-select formControlName="taskPrioritylevel">
+                    <mat-option value="Low">Low priority</mat-option>
+                    <mat-option value="Medium">Medium priority</mat-option>
+                    <mat-option value="High">High priority</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Category</mat-label>
+                <mat-select formControlName="taskCategory">
+                    <mat-option value="Personal">Personal</mat-option>
+                    <mat-option value="Work">Work</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <button mat-flat-button (click)="onSubmit($event)">Submit</button>
+        </form>
+    </article>
+</section>

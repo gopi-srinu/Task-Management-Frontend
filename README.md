@@ -20,3 +20,39 @@ Editing a Task
 Deleting a Task
 
 - Click the delete icon on the task card you want to delete.
+
+## Installation
+
+To run the project 
+
+```bash
+  git clone https://github.com/yourusername/task-manager.git
+```
+Navigate to the project Directory
+```bash
+  git clone https://github.com/yourusername/task-manager.git
+```
+Install the dependencies 
+```bash
+  npm install
+```
+Run the Application -
+```bash
+  ng serve
+```
+
+## Tech Stack
+
+**Client:** Angular , Typescript , SCSS , Angular Material
+
+**Server:** Node, Express
+
+**Database:** MongoDB
+
+## Features
+
+- Responsive Design
+- Task creation and Management
+- Categorization
+
+

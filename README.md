@@ -26,7 +26,7 @@ Deleting a Task
 To run the project 
 
 ```bash
-  git clone https://github.com/yourusername/task-manager.git
+  git clone https://github.com/gopi-srinu/Task-Management-Frontend.git
 ```
 Navigate to the project Directory
 ```bash

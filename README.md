@@ -30,7 +30,7 @@ To run the project
 ```
 Navigate to the project Directory
 ```bash
-  git clone https://github.com/yourusername/task-manager.git
+  cd task-manager
 ```
 Install the dependencies 
 ```bash

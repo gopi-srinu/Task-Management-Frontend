@@ -45,7 +45,7 @@ Run the Application -
 
 **Client:** Angular , Typescript , SCSS , Angular Material
 
-**Server:** Node, Express
+**Server:** NodeJS, Express.JS
 
 **Database:** MongoDB
 
